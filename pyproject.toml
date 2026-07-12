@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "YandexMarket analysis"
+version = "1.0.0"
+description = "A paginated parser of the Yandex Market platform, uploading product cards from HTML, visualization in the console, and a full-fledged dashboard in Power BI"
+authors = ["Anastasia Iva <Vatson.1604@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/Anastasia-0-Iva/YandexMarket-analysis.git"
+repository = "https://github.com/Anastasia-0-Iva/YandexMarket-analysis.git"
+keywords = ["analysis", "marketing", "Power BI", "xlsx", "data science", "python", "dashboard", "Yandex", "Yandex Market", "automotive products", "filters", "visualization"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.0.0"
+matplotlib = "^3.5.0"
+seaborn = "^0.12.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.0.0"
+black = "^22.0.0"
+fake_useragent = "^1.4.0"
+beautifulsoup4 = "^4.12.0"
+requests = "^2.31.0"
+matplotlib = "^3.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
